@@ -1,0 +1,61 @@
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+}
+
+.search-form {
+  max-width: 500px; 
+  width: 100%;   
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.search-form input {
+  min-width: 200px;
+  width: 100%;
+}
+
+.container-fluid h3 {
+  font-family: 'Agu Display';
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .search-form {
+    max-width: 300px;
+  }
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: flex-start;
+  margin-right: 20px; 
+}
+
+.sign-up a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sign-up p {
+  margin: 0;
+}
+
+.conta {
+  margin-right: 8px;
+}
+
+.container-nav {
+  display: flex;
+  align-items: center; 
+}
+.carrinho {
+  margin-right: 30px;
+  margin-left: 80px;
+}
